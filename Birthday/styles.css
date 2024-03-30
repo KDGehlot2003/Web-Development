@@ -9,11 +9,24 @@ h1, h2, h3, h4, p {
     text-shadow: 0 0 1px black;
 }
 
+h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
+    color: #bc6c25;
+    transition: .3s;
+}
+
 #bff-img {
     width: 150px;
     border-radius: 50%;
     border: 6px solid #bc6c25;
     margin-bottom: 10px;
+}
+
+#bff-img:hover {
+    transform:scale(1.5);
+    transition: .7s ;
+    margin-top: 30px;   
+    margin-bottom: 50px;
+    border: 6px solid #ffffff;
 }
 
 #bday-age {
@@ -23,11 +36,21 @@ h1, h2, h3, h4, p {
     margin: 5px 0 10px 0;
 }
 
+#bday-age:hover {
+    background: #d4a373;
+    transition: .3s;
+}
+
 #bday-date {
     margin: 0;
     background: #bc6c25;
     padding: 5px 10px;
     border-radius: 5px;
+}
+
+#bday-date:hover {
+    background: #d4a373;
+    transition: .3s;
 }
 
 #header {
@@ -64,9 +87,8 @@ h1, h2, h3, h4, p {
 
 #gift-img-happy:hover {
     background-image: url("images/happy.gif");
-    transform: perspective(1000px) rotateY(180deg);
+    transform-origin: 50% 50%;
     transition: 1s;
-    border: 6px solid #bc6c25;
 }
 
 #gift-img-hot:hover {
