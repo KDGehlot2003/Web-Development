@@ -64,18 +64,27 @@ h1, h2, h3, h4, p {
 
 #gift-img-happy:hover {
     background-image: url("images/happy.gif");
+    transform: perspective(1000px) rotateY(180deg);
+    transition: 1s;
+    border: 6px solid #bc6c25;
 }
 
 #gift-img-hot:hover {
     background-image: url("images/hot.gif");
+    transform-origin: 50% 50%;
+    transition: 1s;
 }
 
 #gift-img-genius:hover {
     background-image: url("images/genius.gif");
+    transform: translateZ(100px) rotateY(180deg);
+    transition: 1s;
 }
 
 #gift-img-badass:hover {
     background-image: url("images/badass.gif");
+    transform-origin: 50% 50%;
+    transition: 1s;
 }
 
 #gift-img-cheers:hover {
