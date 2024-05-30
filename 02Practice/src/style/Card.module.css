@@ -1,0 +1,37 @@
+.cardDiv{
+
+    display: flex;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+}
+
+.main{
+    background-color: #4280bf;
+    display: block;
+    border-radius: 10px;
+    color: white;
+    width: auto;
+    padding: 10px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.buttonDiv {
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.mybtn{
+    background-color: #04284d;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+}
